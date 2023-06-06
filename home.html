@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Profile</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script>
+    hr {
+      width: 80%; /* Adjust the width as needed */
+      border: 10%;
+      height: 5px;
+      background-color: black;
+      font-weight: bold;
+    }
+  </style>
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="bg-primary text-white text-center py-5 mr-auto">
+    <div class="row">
+        <div class="col-sm-4">
+            <h1>Ananth krishna pk</h1>
+        </div>
+        <div class="col-sm-8">
+            <!--start navbar-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Achievements </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            <!--end nav-->
+        </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-danger" font-weight-bold border-bottom border-danger align ="center"><strong><U>About Me</U></strong></h2>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src=".\pic\user.jpg" width="200" height="200">
+            </div>
+            <div class="col-sm-8">
+            <p>Thanks for your interest, here is a quick story of me</p>
+            <p>As a recent graduate of MCA, I possess the technical skills and knowledge to be an asset to your team.
+
+                    During my studies, I have completed two projects, one in the core PHP and Python with the MLAI application. 
+                    
+                    What excites me about this position is the opportunity to work on real-world projects that solve complex problems. I am passionate about developing efficient and effective software solutions that meet users' needs. I am confident that my technical skills, creativity, and willingness to learn new things will enable me to excel in this role.
+                    
+                    I believe my dedication, attention to detail, and ability to work in a team environment will make me an excellent fit for your organization. I am excited about the possibility of joining your team and contributing my skills to the success of your company.
+                </p> 
+                
+                <hr class="new5">
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 font-weight-bold border-bottom border-danger align ="center"><strong><u>My Skills</u></strong></h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="col-sm-6"id="project">
+                <img src=".\pic\d.jpg" width="200" height="200">
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-5">
+    <div class="container">
+        <h2 class="text-danger" font-weight-bold border-bottom border-danger align ="center"><strong><U>Education</U></strong></h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <ul>
+                    <li><b>College</b></li>
+                    <ul>
+                        <li>March,2022-MES AIMAT Marampilly,Kerala-MCA</li>
+                        <li>March,2020-Sree Sabareesa College,Murukkumvaya-BCA</li>
+                    </ul>
+                    <li><b>School</b></li>
+                    <ul>
+                        <li>March,2017-CKMHSS Koruthodu-CS</li>
+                        <li>March,2015-KPM Public School 35-MILE -SSLC</li>
+                    </ul>
+                </ul>
+                
+            </div>
+            <div class="col-sm-6"></div>
+        </div>
+     
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+    <div class="container">
+        <h2 font-weight-bold border-bottom border-danger align ="center"><strong><u>Contact</u></strong></h2>
+        <div class="row">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-8">
+              <form action="/submit" method="post">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required><br><br>
+                  
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required><br><br>
+                  
+                  <label for="phone">Number:</label>
+                  <input type="tel" id="phone" name="phone" required><br><br>
+                  <label for="message">Message:    </label>
+                  <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                  
+                
+                  <input type="submit" value="Submit"align="center">
+              </form>
+            </div>
+          
+        </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="row">
+      <div class="col-sm-3">
+        <a href="https://www.facebook.com">Facebook</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg>
+      </div>
+
+      <div class="col-sm-3">  
+        <a href="https://www.google.com">Google</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg>
+      </div>
+
+      <div class="col-sm-3">  
+        <a href="https://www.instagram.com">Instagram</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg>
+      </div>
+
+      <div class="col-sm-3">  
+        <a href="https://www.twitter.com">Twitter</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg>
+      
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-11">
+      </div>
+      <div class="col-sm-1">
+        <a href="#navbarTogglerDemo02"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="55" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+        </svg></a>
+      </div>
+    </div>
+    <p class="text-danger">&copy; ©Copyright 2050 by nobody. All rights reserved.</p>
+  </footer>
+
+  
+</body>
+</html>
